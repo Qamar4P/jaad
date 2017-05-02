@@ -53,6 +53,7 @@ public interface BoxTypes {
 	long MOVIE_FRAGMENT_RANDOM_ACCESS_OFFSET_BOX = 1835430511l; //mfro
 	long MOVIE_HEADER_BOX = 1836476516l; //mvhd
 	long NERO_METADATA_TAGS_BOX = 1952540531l; //tags
+	long GO_PRO_TAGS_BOX = 1213025620; //GoPro camera HiLight tags
 	long NULL_MEDIA_HEADER_BOX = 1852663908l; //nmhd
 	long ORIGINAL_FORMAT_BOX = 1718775137l; //frma
 	long PADDING_BIT_BOX = 1885430882l; //padb

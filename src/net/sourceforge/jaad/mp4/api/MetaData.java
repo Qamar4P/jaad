@@ -228,7 +228,7 @@ public class MetaData {
 	};
 	private Map<Field<?>, Object> contents;
 
-	MetaData() {
+	public MetaData() {
 		contents = new HashMap<Field<?>, Object>();
 	}
 
@@ -241,7 +241,7 @@ public class MetaData {
 	 * --tseg
 	 * ---tshd
 	 */
-	void parse(Box udta, Box meta) {
+	public void parse(Box udta, Box meta) {
 		//standard boxes
 		if(meta.hasChild(BoxTypes.COPYRIGHT_BOX)) {
 			CopyrightBox cprt = (CopyrightBox) meta.getChild(BoxTypes.COPYRIGHT_BOX);

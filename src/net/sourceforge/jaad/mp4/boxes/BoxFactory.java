@@ -42,6 +42,7 @@ public class BoxFactory implements BoxTypes {
 		BOX_CLASSES.put(APPLE_LOSSLESS_BOX, AppleLosslessBox.class);
 		BOX_CLASSES.put(BINARY_XML_BOX, BinaryXMLBox.class);
 		BOX_CLASSES.put(BIT_RATE_BOX, BitRateBox.class);
+		BOX_CLASSES.put(GO_PRO_TAGS_BOX, GoProTagsBox.class);
 		BOX_CLASSES.put(CHAPTER_BOX, ChapterBox.class);
 		BOX_CLASSES.put(CHUNK_OFFSET_BOX, ChunkOffsetBox.class);
 		BOX_CLASSES.put(CHUNK_LARGE_OFFSET_BOX, ChunkOffsetBox.class);
